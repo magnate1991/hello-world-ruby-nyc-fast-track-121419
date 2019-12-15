@@ -1,0 +1,5 @@
+def random_items(array)
+  array.sample(1 + rand(array.count))
+end
+my_array =[1..27]
+my_array.sample(1 + rand(my_array.count))
